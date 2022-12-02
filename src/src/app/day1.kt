@@ -1,5 +1,4 @@
-import app.readFile
-import app.print
+package app
 
 fun main () {
     val calsPerElf = mutableListOf<Int>()
