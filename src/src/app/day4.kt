@@ -16,10 +16,7 @@ fun main() {
         ) {
             contained++
         }
-        if (first.contains(second.first) || first.contains(second.last) || second.contains(first.first) || second.contains(
-                first.last
-            )
-        ) {
+        if (first.intersect(second).isNotEmpty()) {
             overlap++
         }
     }
